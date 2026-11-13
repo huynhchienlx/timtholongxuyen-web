@@ -1,0 +1,17 @@
+{
+  "name": "Tìm Thợ An Giang",
+  "short_name": "Tìm Thợ AG",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#E8E2DA",
+  "theme_color": "#1E3A5F",
+  "description": "Kết nối chủ nhà, thầu và thợ sửa chữa, cải tạo nhà ở An Giang.",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": [
+    {"src": "icons/Icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/Icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/Icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/Icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

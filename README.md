@@ -1,3 +1,3 @@
-# Tìm Thợ Long Xuyên
+# Tìm Thợ An Giang
 
 Trang web giới thiệu app, chính sách quyền riêng tư và hướng dẫn xóa tài khoản.

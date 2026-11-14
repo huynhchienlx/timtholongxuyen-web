@@ -1,7 +1,252 @@
-<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"><title>Tìm Thợ An Giang</title></head><body><header><a href="./">Tìm Thợ An Giang</a></header><main>
-<h1>Tìm thợ, tìm thầu uy tín ở An Giang</h1>
-<p class="muted">Ứng dụng Android kết nối chủ nhà với thợ và nhà thầu sửa chữa, xây dựng ở An Giang.</p>
-<ul><li>Chủ nhà: tìm thợ theo nghề và khu vực, nhắn tin, nhận báo giá. Không cần đăng nhập để xem.</li>
-<li>Thợ và thầu: tạo hồ sơ công khai, nhận việc gần mình, gửi báo giá.</li></ul>
-<p><a href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a> · <a href="chinh-sach-quyen-rieng-tu.html">Chính sách quyền riêng tư</a> · <a href="xoa-tai-khoan.html">Xóa tài khoản và dữ liệu</a></p>
-</main><footer>© 2026 Tìm Thợ An Giang</footer></body></html>
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tìm Thợ An Giang – Tìm thợ, nhà thầu sửa nhà uy tín ở An Giang</title>
+<meta name="description" content="Tìm thợ sơn, điện nước, chống thấm, thợ hồ, nhà thầu xây sửa nhà uy tín khắp An Giang. Xem hồ sơ, công trình thật, đánh giá từ người đã thuê. Đăng việc miễn phí, nhận báo giá, chat ngay trong app.">
+<link rel="canonical" href="https://huynhchienlx.github.io/timtholongxuyen-web/">
+<meta name="theme-color" content="#C2410C">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tìm Thợ An Giang">
+<meta property="og:title" content="Tìm Thợ An Giang – Thợ, thầu sửa nhà uy tín gần bạn">
+<meta property="og:description" content="Tìm thợ sơn, điện nước, chống thấm, thợ hồ, nhà thầu xây sửa nhà uy tín khắp An Giang. Xem hồ sơ, công trình thật, đánh giá từ người đã thuê. Đăng việc miễn phí, nhận báo giá, chat ngay trong app.">
+<meta property="og:url" content="https://huynhchienlx.github.io/timtholongxuyen-web/">
+<meta property="og:image" content="https://huynhchienlx.github.io/timtholongxuyen-web/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="vi_VN">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="app/favicon.png">
+<link rel="apple-touch-icon" href="app/icons/Icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Tìm Thợ An Giang", "operatingSystem": "Android, Web", "applicationCategory": "BusinessApplication", "description": "Tìm thợ sơn, điện nước, chống thấm, thợ hồ, nhà thầu xây sửa nhà uy tín khắp An Giang. Xem hồ sơ, công trình thật, đánh giá từ người đã thuê. Đăng việc miễn phí, nhận báo giá, chat ngay trong app.", "url": "https://huynhchienlx.github.io/timtholongxuyen-web/", "areaServed": "An Giang, Việt Nam", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "VND"}, "inLanguage": "vi"}</script>
+<style>
+:root{--brick:#C2410C;--brick-d:#9A3412;--brick-s:#FFF1E8;--navy:#1E3A5F;--navy-d:#132840;--ink:#1F2328;--muted:#5F6B76;--line:#E8E1DA;--bg:#FBF8F5;--ok:#15803D;--okbg:#E7F6EC;--card:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--brick)}img{max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:16px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--ink);text-decoration:none;font-size:18px}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--brick);display:grid;place-items:center;color:#fff}
+.top nav{margin-left:auto;display:flex;gap:22px;align-items:center}
+.top nav a{color:var(--muted);text-decoration:none;font-weight:500;font-size:15px}
+.top nav a:hover{color:var(--ink)}
+.top nav a.btn{color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border-radius:14px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-p{background:var(--brick);color:#fff;box-shadow:0 8px 20px rgba(194,65,12,.28)}
+.btn-w{background:#fff;color:var(--navy);box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.btn-o{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}
+.btn-sm{padding:9px 16px;font-size:14px;border-radius:11px}
+.btn small{display:block;font-weight:500;font-size:12px;opacity:.85}
+.hero{background:linear-gradient(135deg,var(--brick) 0%,#E76F2E 45%,var(--navy) 100%);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-top:64px;padding-bottom:64px}
+.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600}
+.dot{width:8px;height:8px;border-radius:50%;background:#4ADE80;box-shadow:0 0 0 4px rgba(74,222,128,.25)}
+.hero h1{font-size:clamp(32px,5vw,54px);line-height:1.12;margin:18px 0 14px;font-weight:800;letter-spacing:-.5px}
+.hero p.lead{font-size:18px;opacity:.93;max-width:560px;margin:0 0 28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.facts{display:flex;gap:8px 22px;flex-wrap:wrap;margin-top:26px;font-size:14px;opacity:.95}
+.facts span::before{content:"✓ ";font-weight:800}
+/* phone mockup */
+.phone{width:300px;margin:0 auto;background:#111;border-radius:42px;padding:12px;box-shadow:0 30px 60px rgba(0,0,0,.35);transform:rotate(2deg)}
+.screen{background:var(--bg);border-radius:32px;overflow:hidden;height:590px;color:var(--ink);position:relative}
+.s-head{background:var(--navy);color:#fff;padding:22px 16px 14px}
+.s-head small{color:#C9D6E6;font-size:11px}
+.s-head b{display:block;font-size:15px}
+.s-search{margin-top:10px;background:#fff;border-radius:10px;padding:8px 10px;color:#9AA3AE;font-size:12px}
+.s-tick{margin:10px 12px 0;background:#fff;border:1px solid var(--line);border-radius:10px;padding:7px 9px;font-size:11px;display:flex;gap:7px;align-items:center}
+.s-tick em{white-space:nowrap;font-style:normal;background:#DCFCE7;color:#166534;font-weight:800;font-size:9px;padding:2px 6px;border-radius:5px}
+.s-seg{display:flex;margin:10px 12px 0;border:1px solid #CBD5E1;border-radius:20px;overflow:hidden;font-size:11px;font-weight:600}
+.s-seg span{flex:1;text-align:center;padding:6px}.s-seg span:first-child{background:#FDE7D6;color:var(--brick-d)}
+.s-card{margin:10px 12px 0;background:#fff;border-radius:14px;padding:10px;display:flex;gap:10px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.av{width:42px;height:42px;border-radius:50%;flex:none;display:grid;place-items:center;color:#fff;font-weight:800;border:2px solid}
+.s-card b{font-size:12.5px}.s-card .t{font-size:10.5px;color:var(--muted)}
+.badge{display:inline-block;font-size:8.5px;font-weight:800;padding:1px 5px;border-radius:4px;border:1px solid;margin-left:4px;vertical-align:1px}
+.on{color:var(--ok);font-size:10px}.on::before{content:"● "}
+.stars{color:#F59E0B;font-size:10.5px}
+.s-nav{position:absolute;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);display:flex;justify-content:space-around;padding:9px 0 12px;font-size:10px;color:var(--muted)}
+.s-nav span:first-child{color:var(--brick);font-weight:700}
+section{padding:72px 0}
+.kicker{color:var(--brick);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:1px}
+h2{font-size:clamp(26px,3.6vw,38px);line-height:1.2;margin:8px 0 12px;letter-spacing:-.3px}
+.sub{color:var(--muted);font-size:17px;max-width:680px;margin:0}
+.trust{background:#fff;border-bottom:1px solid var(--line);padding:28px 0}
+.trust .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ti{display:flex;gap:12px;align-items:flex-start}
+.ic{width:44px;height:44px;flex:none;border-radius:12px;background:var(--brick-s);display:grid;place-items:center;font-size:22px}
+.ti b{display:block;font-size:15px}.ti span{color:var(--muted);font-size:13.5px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.step{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;position:relative}
+.num{width:40px;height:40px;border-radius:12px;background:var(--brick);color:#fff;font-weight:800;display:grid;place-items:center;font-size:18px;margin-bottom:14px}
+.step h3{margin:0 0 6px;font-size:19px}.step p{margin:0;color:var(--muted)}
+.pros{background:var(--navy);color:#fff}
+.pros .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.pros .sub{color:#C9D6E6}.pros .kicker{color:#FDBA8C}
+.bl{list-style:none;padding:0;margin:26px 0 30px;display:grid;gap:14px}
+.bl li{display:flex;gap:12px;align-items:flex-start;font-size:16px}
+.bl li::before{content:"✓";flex:none;width:26px;height:26px;border-radius:50%;background:rgba(74,222,128,.18);color:#4ADE80;display:grid;place-items:center;font-weight:800;font-size:14px}
+.plans{display:grid;gap:14px}
+.plan{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:18px;padding:20px 22px}
+.plan b{font-size:18px}.plan .p{float:right;font-weight:800;color:#FDBA8C}.plan p{margin:6px 0 0;color:#C9D6E6;font-size:14.5px}
+.plan.free{background:#fff;color:var(--ink)}.plan.free p{color:var(--muted)}.plan.free .p{color:var(--ok)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{background:#fff;border:1px solid #F6C9AB;color:var(--brick-d);padding:7px 13px;border-radius:999px;font-size:14px;font-weight:600}
+.chip-c{border-color:#C7D2FE;color:#3730A3}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:30px}
+.cols h3{margin:0;font-size:18px}
+.area{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;margin-top:30px}
+.nums{display:flex;gap:14px;flex-wrap:wrap}
+.n{background:var(--brick-s);border-radius:14px;padding:12px 18px}.n b{font-size:26px;color:var(--brick-d);display:block;line-height:1.1}.n span{font-size:13px;color:var(--muted)}
+details.wards{margin-top:18px}details.wards summary{cursor:pointer;font-weight:700;color:var(--brick)}
+.wards ul{columns:4 180px;padding-left:18px;margin:14px 0 0;font-size:14px;color:var(--muted)}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-top:12px}
+.faq summary{cursor:pointer;font-weight:700;font-size:16.5px;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--brick);font-size:22px;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq p,.faq ol{color:var(--muted);margin:10px 0 0}
+.final{background:linear-gradient(135deg,var(--brick),#E76F2E);color:#fff;text-align:center;border-radius:28px;padding:54px 24px}
+.final h2{margin-top:0}.final .cta{justify-content:center;margin-top:22px}
+footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--muted);font-size:14px;background:#fff}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{color:var(--muted)}
+@media (max-width:900px){
+ .hero .wrap,.pros .wrap{grid-template-columns:1fr}
+ .phone{transform:none;width:270px}.screen{height:540px}
+ .trust .wrap{grid-template-columns:1fr 1fr}
+ .steps,.cols{grid-template-columns:1fr}
+ .top nav a.hide-m{display:none}
+}
+@media (max-width:560px){
+ .wrap{padding:0 16px}
+ section{padding:52px 0}
+ .hero .wrap{padding-top:40px;padding-bottom:48px}
+ .cta .btn{width:100%}
+ .trust .wrap{grid-template-columns:1fr}
+ .top nav{gap:12px}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+ <a class="brand" href="./"><span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></span>Tìm Thợ An Giang</a>
+ <nav><a class="hide-m" href="#cach-dung">Cách dùng</a><a class="hide-m" href="#tho-thau">Thợ &amp; thầu</a><a class="hide-m" href="#hoi-dap">Hỏi đáp</a><a class="btn btn-p btn-sm" href="app/">Dùng ngay</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+ <div>
+  <span class="pill"><span class="dot"></span>Đang phục vụ toàn tỉnh An Giang</span>
+  <h1>Tìm thợ sửa nhà uy tín, ngay gần bạn</h1>
+  <p class="lead">Thợ sơn, điện nước, chống thấm, thợ hồ, nhà thầu xây sửa nhà khắp An Giang. Xem hồ sơ và công trình thật, đọc đánh giá từ người đã thuê, rồi nhắn tin hoặc nhận báo giá ngay trong app.</p>
+  <div class="cta">
+   <a class="btn btn-w" href="tai-app/TimThoAnGiang.apk" download><svg width="22" height="22" viewBox="0 0 24 24" fill="#3DDC84"><path d="M17.6 9.48l1.84-3.18a.38.38 0 10-.66-.38l-1.86 3.22a11.5 11.5 0 00-9.84 0L5.22 5.92a.38.38 0 10-.66.38L6.4 9.48A10.8 10.8 0 001 18h22a10.8 10.8 0 00-5.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/></svg><span>Tải app Android<small>Miễn phí</small></span></a>
+   <a class="btn btn-o" href="app/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span>Dùng trên máy tính<small>Không cần cài đặt</small></span></a>
+  </div>
+  <div class="facts"><span>Miễn phí cho chủ nhà</span><span>Không cần đăng nhập để xem</span><span>102 xã, phường</span></div>
+ </div>
+ <div aria-hidden="true">
+  <div class="phone"><div class="screen">
+   <div class="s-head"><small>Khu vực</small><b>Phường Long Xuyên ▾</b><div class="s-search">🔍 Bạn cần sửa gì? Ví dụ: chống thấm</div></div>
+   <div class="s-tick"><em>● Mới nhất</em>Tâm Sơn Nước vừa đăng công trình · 2 giờ trước</div>
+   <div class="s-seg"><span>🔧 Tìm thợ</span><span>🏢 Tìm thầu</span></div>
+   <div class="s-card"><div class="av" style="background:#0E7C66;border-color:#2563EB">T</div><div><b>Tâm Sơn Nước</b><span class="badge" style="color:#2563EB;border-color:#2563EB">THỢ</span><div class="on">Đang hoạt động</div><div class="t">Sơn bả · Chống thấm</div><div class="stars">★★★★★ <span class="t">4.9 (18)</span></div></div></div>
+   <div class="s-card"><div class="av" style="background:#B45309;border-color:#E0A100">H</div><div><b>Đội thợ Hùng Phát</b><span class="badge" style="color:#7A5200;border-color:#E0A100;background:#FFE08A">THẦU PRO</span><div class="on">Đang hoạt động</div><div class="t">Xây nhà nguyên căn · Sửa chữa cải tạo</div><div class="stars">★★★★★ <span class="t">5.0 (9)</span></div></div></div>
+   <div class="s-card"><div class="av" style="background:#4338CA;border-color:#2563EB">L</div><div><b>Lộc Điện Nước</b><span class="badge" style="color:#2563EB;border-color:#2563EB">THỢ</span><div class="t" style="margin-top:2px">Hoạt động 3 giờ trước</div><div class="t">Điện nước · Máy lạnh</div><div class="stars">★★★★☆ <span class="t">4.6 (11)</span></div></div></div>
+   <div class="s-nav"><span>🔍<br>Tìm thợ</span><span>📋<br>Việc của tôi</span><span>💬<br>Tin nhắn</span></div>
+  </div></div>
+ </div>
+</div></section>
+
+<div class="trust"><div class="wrap">
+ <div class="ti"><div class="ic">🏠</div><div><b>Công trình thật</b><span>Thợ đăng bài về công trình đã làm và đang làm</span></div></div>
+ <div class="ti"><div class="ic">⭐</div><div><b>Đánh giá thật</b><span>Chỉ người đã thuê và hoàn thành việc mới được đánh giá</span></div></div>
+ <div class="ti"><div class="ic">🔒</div><div><b>Số điện thoại được bảo vệ</b><span>Số chủ nhà chỉ hiện khi bạn đồng ý</span></div></div>
+ <div class="ti"><div class="ic">💬</div><div><b>Chat ngay trong app</b><span>Nhắn tin, gửi báo giá, chốt thuê ở một chỗ</span></div></div>
+</div></div>
+
+<section id="cach-dung"><div class="wrap">
+ <div class="kicker">Dành cho chủ nhà</div>
+ <h2>Sửa nhà chỉ với 3 bước</h2>
+ <p class="sub">Không cần đi hỏi từng người quen. Mô tả việc cần làm, thợ gần bạn sẽ tự tìm đến.</p>
+ <div class="steps">
+  <div class="step"><div class="num">1</div><h3>Tìm thợ hoặc đăng việc</h3><p>Chọn nghề và khu vực để xem danh sách thợ, thầu. Hoặc đăng việc kèm mô tả để thợ gần bạn gửi báo giá.</p></div>
+  <div class="step"><div class="num">2</div><h3>So sánh và trò chuyện</h3><p>Xem hồ sơ, công trình đã làm, số việc hoàn thành và đánh giá. Nhắn tin trực tiếp để hỏi giá, hẹn ngày.</p></div>
+  <div class="step"><div class="num">3</div><h3>Chốt thuê và đánh giá</h3><p>Bấm "Chốt thuê" khi đã chọn được người. Xong việc thì bấm "Đã hoàn thành" và để lại đánh giá giúp người sau.</p></div>
+ </div>
+</div></section>
+
+<section class="pros" id="tho-thau"><div class="wrap">
+ <div>
+  <div class="kicker">Dành cho thợ &amp; nhà thầu</div>
+  <h2>Có thêm khách mỗi ngày, không tốn tiền quảng cáo</h2>
+  <p class="sub">Tạo hồ sơ miễn phí, để chủ nhà quanh bạn tìm thấy và nhắn trực tiếp.</p>
+  <ul class="bl">
+   <li>Nhận việc mới đúng nghề, đúng khu vực bạn nhận làm</li>
+   <li>Trang cá nhân riêng: đăng công trình, khoe tay nghề, gom đánh giá</li>
+   <li>Gửi báo giá, chat với chủ nhà ngay trong app</li>
+   <li>Thợ: xem thêm việc thầu tuyển thợ. Thầu: đăng tin tuyển thợ cho đội</li>
+   <li>Bật "Đang rảnh" để được xếp lên trước khi chủ nhà tìm thợ</li>
+  </ul>
+  <div class="cta"><a class="btn btn-p" href="tai-app/TimThoAnGiang.apk" download>Tải app, đăng ký nhận việc</a></div>
+ </div>
+ <div class="plans">
+  <div class="plan free"><span class="p">Miễn phí</span><b>Gói thường</b><p>Tạo hồ sơ, nhận việc, gửi báo giá, chat với chủ nhà. Đủ để bắt đầu.</p></div>
+  <div class="plan"><span class="p">99.000đ/tháng</span><b>Thợ Pro</b><p>Huy hiệu Pro, xem số không giới hạn, xin số chủ nhà.</p></div>
+  <div class="plan"><span class="p">199.000đ/tháng</span><b>Thầu Pro</b><p>Huy hiệu Thầu Pro vàng, xem số không giới hạn, xin số chủ nhà.</p></div>
+  <p style="color:#C9D6E6;font-size:13.5px;margin:4px 4px 0">Thời gian đầu: mọi tính năng đều miễn phí.</p>
+ </div>
+</div></section>
+
+<section id="nghe"><div class="wrap">
+ <div class="kicker">Nghề trên app</div>
+ <h2>Hơn 44 nghề sửa chữa, xây dựng</h2>
+ <p class="sub">Từ việc nhỏ như thay bóng đèn, thông cống, đến xây nhà nguyên căn.</p>
+ <div class="cols">
+  <div><h3>🔧 Thợ</h3><div class="chips"><span class="chip">Sơn bả</span><span class="chip">Điện nước</span><span class="chip">Chống thấm</span><span class="chip">Tiền chế (khung sắt)</span><span class="chip">Ốp lát</span><span class="chip">Trần thạch cao</span><span class="chip">Mộc</span><span class="chip">Nhôm kính</span><span class="chip">Máy lạnh</span><span class="chip">Thợ hồ (xây, tô, láng nền)</span><span class="chip">Phụ hồ</span><span class="chip">Hàn sắt, cửa sắt, lan can</span><span class="chip">Mái tôn, xà gồ, máng xối</span><span class="chip">Mái ngói</span><span class="chip">Sàn gỗ, sàn nhựa, giấy dán tường</span><span class="chip">Đá granite, marble</span><span class="chip">Cửa cuốn, cửa kéo</span><span class="chip">Điện lạnh (tủ lạnh, máy giặt)</span><span class="chip">Bồn nước, máy bơm, máy nước nóng</span><span class="chip">Điện mặt trời</span><span class="chip">Camera, wifi, mạng</span><span class="chip">Thông cống, hút hầm cầu</span><span class="chip">Khoan cắt bê tông</span><span class="chip">Rèm cửa</span><span class="chip">Chống mối mọt</span><span class="chip">Vệ sinh nhà sau xây dựng</span></div></div>
+  <div><h3>🏢 Nhà thầu</h3><div class="chips"><span class="chip chip-c">Xây nhà nguyên căn</span><span class="chip chip-c">Nhà cấp 4</span><span class="chip chip-c">Biệt thự</span><span class="chip chip-c">Sửa chữa cải tạo</span><span class="chip chip-c">Nhà xưởng</span><span class="chip chip-c">Nội thất trọn gói</span><span class="chip chip-c">Nhà phố, nhà lầu</span><span class="chip chip-c">Thiết kế kiến trúc</span><span class="chip chip-c">Thi công phần thô</span><span class="chip chip-c">Hoàn thiện nhà</span><span class="chip chip-c">Nhà tiền chế, khung thép</span><span class="chip chip-c">Nhà trọ, phòng trọ</span><span class="chip chip-c">Quán cà phê, nhà hàng, cửa hàng</span><span class="chip chip-c">Sân vườn, tiểu cảnh</span><span class="chip chip-c">San lấp, kè, làm móng</span><span class="chip chip-c">Chống thấm trọn gói</span><span class="chip chip-c">Điện nước công trình</span><span class="chip chip-c">Hồ bơi, hồ cá Koi</span></div></div>
+ </div>
+ <div class="area">
+  <div class="kicker">Khu vực phục vụ</div>
+  <h2 style="font-size:26px">Toàn tỉnh An Giang (mới)</h2>
+  <div class="nums"><div class="n"><b>14</b><span>phường</span></div><div class="n"><b>85</b><span>xã</span></div><div class="n"><b>3</b><span>đặc khu</span></div></div>
+  <details class="wards"><summary>Xem đủ 102 xã, phường, đặc khu</summary><ul><li>Phường Long Xuyên</li><li>Phường Bình Đức</li><li>Phường Mỹ Thới</li><li>Phường Châu Đốc</li><li>Phường Vĩnh Tế</li><li>Phường Tân Châu</li><li>Phường Long Phú</li><li>Phường Tịnh Biên</li><li>Phường Thới Sơn</li><li>Phường Chi Lăng</li><li>Phường Vĩnh Thông</li><li>Phường Rạch Giá</li><li>Phường Hà Tiên</li><li>Phường Tô Châu</li><li>Xã Mỹ Hòa Hưng</li><li>Xã Châu Thành</li><li>Xã Bình Hòa</li><li>Xã Cần Đăng</li><li>Xã Vĩnh Hanh</li><li>Xã Vĩnh An</li><li>Xã An Châu</li><li>Xã Thoại Sơn</li><li>Xã Óc Eo</li><li>Xã Định Mỹ</li><li>Xã Phú Hòa</li><li>Xã Vĩnh Trạch</li><li>Xã Tây Phú</li><li>Xã Chợ Mới</li><li>Xã Cù Lao Giêng</li><li>Xã Hội An</li><li>Xã Long Điền</li><li>Xã Nhơn Mỹ</li><li>Xã Long Kiến</li><li>Xã Châu Phú</li><li>Xã Mỹ Đức</li><li>Xã Vĩnh Thạnh Trung</li><li>Xã Bình Mỹ</li><li>Xã Thạnh Mỹ Tây</li><li>Xã Phú Tân</li><li>Xã Phú An</li><li>Xã Bình Thạnh Đông</li><li>Xã Chợ Vàm</li><li>Xã Hòa Lạc</li><li>Xã Phú Lâm</li><li>Xã An Phú</li><li>Xã Vĩnh Hậu</li><li>Xã Nhơn Hội</li><li>Xã Khánh Bình</li><li>Xã Phú Hữu</li><li>Xã Tân An</li><li>Xã Châu Phong</li><li>Xã Vĩnh Xương</li><li>Xã An Cư</li><li>Xã Núi Cấm</li><li>Xã Ba Chúc</li><li>Xã Tri Tôn</li><li>Xã Ô Lâm</li><li>Xã Cô Tô</li><li>Xã Vĩnh Gia</li><li>Xã Vĩnh Bình</li><li>Xã Vĩnh Thuận</li><li>Xã Vĩnh Phong</li><li>Xã Vĩnh Hòa</li><li>Xã U Minh Thượng</li><li>Xã Đông Hòa</li><li>Xã Tân Thạnh</li><li>Xã Đông Hưng</li><li>Xã An Minh</li><li>Xã Vân Khánh</li><li>Xã Tây Yên</li><li>Xã Đông Thái</li><li>Xã An Biên</li><li>Xã Định Hòa</li><li>Xã Gò Quao</li><li>Xã Vĩnh Hòa Hưng</li><li>Xã Vĩnh Tuy</li><li>Xã Giồng Riềng</li><li>Xã Thạnh Hưng</li><li>Xã Long Thạnh</li><li>Xã Hòa Hưng</li><li>Xã Ngọc Chúc</li><li>Xã Hòa Thuận</li><li>Xã Tân Hội</li><li>Xã Tân Hiệp</li><li>Xã Thạnh Đông</li><li>Xã Thạnh Lộc</li><li>Xã Bình An</li><li>Xã Hòn Đất</li><li>Xã Sơn Kiên</li><li>Xã Mỹ Thuận</li><li>Xã Bình Giang</li><li>Xã Bình Sơn</li><li>Xã Hòa Điền</li><li>Xã Kiên Lương</li><li>Xã Hòn Nghệ</li><li>Xã Sơn Hải</li><li>Xã Giang Thành</li><li>Xã Vĩnh Điều</li><li>Xã Tiên Hải</li><li>Đặc khu Phú Quốc</li><li>Đặc khu Kiên Hải</li><li>Đặc khu Thổ Châu</li></ul></details>
+ </div>
+</div></section>
+
+<section class="faq" id="hoi-dap" style="padding-top:0"><div class="wrap">
+ <div class="kicker">Hỏi đáp</div>
+ <h2>Câu hỏi thường gặp</h2>
+ <details><summary>Dùng app có mất phí không?</summary><p>Chủ nhà dùng miễn phí hoàn toàn. Thợ và thầu tạo hồ sơ, nhận việc, gửi báo giá miễn phí. Gói Pro (Thợ Pro, Thầu Pro) có thêm quyền lợi, thời gian đầu chưa thu phí.</p></details>
+ <details><summary>Tôi dùng iPhone thì sao?</summary><p>Bạn bấm "Dùng trên máy tính" (mở được cả trên điện thoại) để dùng bản web, dữ liệu giống hệt app Android. Bản cho iPhone sẽ có sau.</p></details>
+ <details><summary>Cài file app Android như thế nào?</summary><ol><li>Bấm "Tải app Android" và chờ tải xong.</li><li>Mở file vừa tải. Nếu điện thoại hỏi, bấm "Cài đặt" hoặc cho phép cài từ nguồn này.</li><li>Mở app Tìm Thợ An Giang là dùng được. App sắp có trên Google Play.</li></ol></details>
+ <details><summary>Số điện thoại của tôi có bị lộ không?</summary><p>Số trong tin nhắn và bài đăng được tự động che. Số chủ nhà không hiện công khai: thợ phải gửi lời xin, chỉ khi bạn bấm "Đồng ý" người đó mới xem được, và bạn có thể rút lại bất cứ lúc nào.</p></details>
+ <details><summary>Đánh giá trên app có đáng tin không?</summary><p>Chỉ chủ nhà đã "Chốt thuê" và bấm "Đã hoàn thành" mới được đánh giá, mỗi lần hoàn thành một đánh giá. Hồ sơ hiện rõ "Đã hoàn thành X việc" và nhãn "Đã thuê qua app".</p></details>
+ <details><summary>Gặp thợ làm ăn không đàng hoàng thì báo ở đâu?</summary><p>Trong khung chat bấm ⋮ rồi chọn "Báo cáo". Đội ngũ quản trị sẽ xem xét và có thể khóa tài khoản vi phạm.</p></details>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+ <div class="final">
+  <h2>Nhà cần sửa? Có thợ gần bạn.</h2>
+  <p style="margin:0;opacity:.93;font-size:17px">Tải app miễn phí hoặc dùng ngay trên trình duyệt.</p>
+  <div class="cta">
+   <a class="btn btn-w" href="tai-app/TimThoAnGiang.apk" download>Tải app Android</a>
+   <a class="btn btn-o" href="app/">Dùng trên máy tính</a>
+  </div>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <div><b style="color:var(--ink)">Tìm Thợ An Giang</b><br>Kết nối chủ nhà với thợ và nhà thầu ở An Giang.<br>Liên hệ: <a href="mailto:angianghome@gmail.com">angianghome@gmail.com</a></div>
+ <div><a href="dieu-khoan-su-dung.html">Điều khoản sử dụng</a><br><a href="chinh-sach-quyen-rieng-tu.html">Chính sách quyền riêng tư</a><br><a href="xoa-tai-khoan.html">Xóa tài khoản và dữ liệu</a></div>
+ <div>© 2026 Tìm Thợ An Giang</div>
+</div></footer>
+</body>
+</html>
